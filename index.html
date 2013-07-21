@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script data-main="lib/js/app" src="lib/js/vendor/require.js"></script>
+        <title>HTML5 Player Proof Of Concept</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" media="all" href="lib/css/main.css">
+    </head>
+    <body>
+        <div id="html5-player-wrapper">
+            <div class="hover-wrapper">
+                <video id="html5-player" poster="poster.png" preload="metadata">
+					<source src="trailer_1080p.webm" type='video/webm; codecs="vp8, vorbis"' />
+					<source src="trailer_1080p.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+                </video>
+                <div class="controls-wrapper">
+                    <div class="controls">
+                        <div class="left">
+                            <a class="playPause">Play</a>
+                        </div>
+                        <div class="left separator"></div>
+                        <div class="left seekable">
+                            <div class="seekBar">
+                                <div class="progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

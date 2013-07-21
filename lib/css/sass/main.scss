@@ -1,0 +1,14 @@
+//    Document   : main.scss
+//    Created on : 05-Jun-2013
+//    Author     : Dan Woodbury
+//    Description: Construct CSS
+
+// reset
+@import "_reset";
+
+// libraries
+@import "compass/compass";
+@import "compass/compass/css3/_opacity";
+
+//player
+@import "player/_general";
